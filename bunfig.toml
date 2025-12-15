@@ -1,0 +1,8 @@
+[formatter]
+indent = 2
+lineWidth = 100
+semi = true
+singleQuote = true
+
+[linter]
+enabled = true

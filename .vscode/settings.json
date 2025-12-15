@@ -1,0 +1,27 @@
+{
+  // Biome como formatter padrão
+  "editor.defaultFormatter": "biomejs.biome",
+
+  // Formatar automaticamente ao salvar
+  "editor.formatOnSave": true,
+
+  // Aplica correções do linter ao salvar
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+
+  // Evita conflitos com outros formatters
+  "editor.formatOnPaste": false,
+  "editor.formatOnType": false,
+
+  // Garante que TS/JS usem o Biome
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  }
+}
