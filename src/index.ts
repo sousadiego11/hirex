@@ -1,5 +1,5 @@
+import { logger } from '@infra/logger';
 import { Hono } from 'hono';
-import { logger } from './infra/logger';
 
 const app = new Hono();
 
