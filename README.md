@@ -13,3 +13,30 @@ bun run index.ts
 ```
 
 This project was created using `bun init` in bun v1.3.4. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
+
+## Structure
+
+src/
+- application  
+  - models  
+  - dtos  
+  - enums  
+  - repositories  
+  - services  
+
+- infra  
+  - database  
+    - migrations  
+    - repositories  
+    - sql  
+  - auth  
+  - mail  
+  - scheduler  
+  - config  
+
+- presentation  
+  - http  
+    - routes  
+    - controllers  
+    - middlewares
+- main.ts

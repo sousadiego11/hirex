@@ -10,7 +10,7 @@ export enum JobStatus {
 	CLOSED = 'CLOSED',
 }
 
-export enum ApplicationStatus {
+export enum JobApplicationStatus {
 	APPLIED = 'APPLIED',
 	REVIEWING = 'REVIEWING',
 	INTERVIEW = 'INTERVIEW',

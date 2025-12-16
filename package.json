@@ -1,10 +1,10 @@
 {
   "name": "hirex",
-  "module": "index.ts",
+  "module": "main.ts",
   "type": "module",
   "private": true,
   "scripts": {
-    "dev": "bun run --hot src/index.ts"
+    "dev": "bun run --hot src/main.ts"
   },
   "devDependencies": {
     "@biomejs/biome": "2.3.9",

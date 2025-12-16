@@ -1,11 +1,11 @@
-import type { ApplicationStatus, JobStatus, UserRole } from '@app/enums';
+import type { JobApplicationStatus, JobStatus, UserRole } from '@app/enums';
 
 export type User = {
 	id: string;
 	name: string;
 	email: string;
 	passwordHash: string;
-	role: UserRole;
+	roles: UserRole[];
 	createdAt: Date;
 	updatedAt?: Date;
 };
@@ -22,12 +22,12 @@ export type Job = {
 	updatedAt?: Date;
 };
 
-export type Application = {
+export type JobApplication = {
 	id: string;
 	jobId: string;
 	candidateId: string;
 	coverLetter?: string;
-	status: ApplicationStatus;
+	status: JobApplicationStatus;
 	createdAt: Date;
 	updatedAt?: Date;
 };
