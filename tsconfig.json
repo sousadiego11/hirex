@@ -28,6 +28,7 @@
 		"paths": {
 			"@app/*": ["./src/application/*"],
 			"@infra/*": ["./src/infra/*"],
+			"@core/*": ["./src/core/*"],
 			"@presentation/*": ["./src/presentation/*"]
 		}
 	}

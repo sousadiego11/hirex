@@ -1,4 +1,4 @@
-import { logger } from '@infra/logger';
+import { logger } from '@core/logger';
 import { Hono } from 'hono';
 
 const app = new Hono();
